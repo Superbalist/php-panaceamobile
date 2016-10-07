@@ -194,14 +194,8 @@ class PanaceaMobileAPI
     /**
      * Send an HTTP request.
      *
-     * The return value is based on the `Content-Type` header returned by the remote server.
-     *
-     * * JSON type responses are decoded to an `array`.
-     * * XML type responses are decoded to a `\SimpleXMLElement` object.
-     * * All other values are converted to a `string`.
-     *
      * @param RequestInterface $request
-     * @return mixed
+     * @return array
      * @throws \Exception
      */
     protected function sendRequest(RequestInterface $request)
