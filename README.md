@@ -1,6 +1,6 @@
 # php-panaceamobile
 
-An API client for sending SMSs via the Panacea Mobile API
+An API client for sending SMSs via the [Panacea Mobile](https://www.panaceamobile.com) API
 
 [![Author](http://img.shields.io/badge/author-@superbalist-blue.svg?style=flat-square)](https://twitter.com/superbalist)
 [![Build Status](https://img.shields.io/travis/Superbalist/php-panaceamobile/master.svg?style=flat-square)](https://travis-ci.org/Superbalist/php-panaceamobile)
