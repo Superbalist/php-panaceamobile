@@ -15,6 +15,12 @@ An API client for sending SMSs via the [Panacea Mobile](https://www.panaceamobil
 composer require superbalist/php-panaceamobile
 ```
 
+## Integrations
+
+Want to get started quickly? Check out some of these integrations:
+
+* Laravel - https://github.com/Superbalist/simple-sms-panacea-mobile
+
 ## Usage
 
 ```php
