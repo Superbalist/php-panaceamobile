@@ -138,7 +138,7 @@ class PanaceaMobileAPITest extends TestCase
                     'data_coding' => null,
                     'message_class' => -1,
                     'auto_detect_encoding' => 0,
-                ]
+                ],
             ])
             ->once();
         $client->sendMessage('+27000000000', 'This is my message', '+27111111111');

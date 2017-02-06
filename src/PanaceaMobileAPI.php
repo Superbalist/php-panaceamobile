@@ -54,6 +54,7 @@ class PanaceaMobileAPI
     {
         $this->uri = $uri;
     }
+
     /**
      * Return the uri.
      *
@@ -113,6 +114,7 @@ class PanaceaMobileAPI
     {
         $this->userAgent = $userAgent;
     }
+
     /**
      * Return the user-agent HTTP header.
      *
@@ -127,6 +129,7 @@ class PanaceaMobileAPI
      * Return the full uri to an API end-point.
      *
      * @param string $endpoint
+     *
      * @return string
      */
     public function makeBaseUri($endpoint)
@@ -153,6 +156,7 @@ class PanaceaMobileAPI
      * @param string $endpoint
      * @param mixed $body
      * @param array $headers
+     *
      * @return Request
      */
     protected function createRequest($method, $endpoint, $body = null, array $headers = [])
@@ -173,6 +177,7 @@ class PanaceaMobileAPI
      *
      * @param string $action
      * @param array $query
+     *
      * @return mixed
      */
     public function get($action, array $query = [])
@@ -195,8 +200,10 @@ class PanaceaMobileAPI
      * Send an HTTP request.
      *
      * @param RequestInterface $request
-     * @return array
+     *
      * @throws \Exception
+     *
+     * @return array
      */
     protected function sendRequest(RequestInterface $request)
     {
@@ -228,6 +235,7 @@ class PanaceaMobileAPI
      * @param int $dataCoding
      * @param int $messageClass
      * @param bool $autoDetectEncoding
+     *
      * @return mixed
      */
     public function sendMessage(
